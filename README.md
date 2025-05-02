@@ -1,2 +1,19 @@
-# PDFinder
-A simple Python script to automatically search Google Scholar and download available PDF versions of academic papers. Useful for researchers, students, and anyone looking to collect scholarly resources quickly.
+# Google Scholar PDF Downloader
+
+A simple script to search and download PDF articles from Google Scholar.
+
+## Features
+
+- Accepts a search query and number of pages to crawl.
+- Downloads available PDF files and saves them to a folder named after your query.
+
+## Requirements
+
+- Python 3.x
+- `requests`
+- `beautifulsoup4`
+
+## Usage
+
+```bash
+python scholar.py
